@@ -1,0 +1,174 @@
+{
+    "name": "VRInputActions",
+    "maps": [
+        {
+            "name": "Grapple",
+            "id": "dde14775-3160-46f3-a20c-0ab1d8bc7d57",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "fd4d82f6-6efa-4629-98f8-3c5202ff6930",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c3edc38c-af07-444c-aff1-b47280f59f5b",
+                    "path": "<XRController>{LeftHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Move",
+            "id": "986f7919-e307-4362-82c4-6578c9cfaab9",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "0ef54f44-006c-4485-b07f-dd2c2d3eba59",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f80f0383-6274-4a9a-a95b-b4ae5be03a35",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxis}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Jump",
+            "id": "de2eb334-ab7d-47b3-8e65-b0d2798fde7a",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "85e2da2c-9bd5-4184-81b9-b6d901c2940b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4ac98393-2cda-4ac1-b095-377bf06d3883",
+                    "path": "<XRController>{RightHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Interact",
+            "id": "bdd371d7-3691-4039-ab2f-e1ae9cd1ebe4",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "66a2d714-cfce-4b87-a12b-b6904a6c237a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1a11f927-99bf-49e0-a0f5-5ff20521fbbb",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Secondary",
+            "id": "6ce0bbea-e251-4d1b-a596-404e39a89e82",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "95d63f62-ae57-4eaa-bfde-0baed4b4d829",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "aea5e513-8799-4c03-8952-9c4f054c1fe1",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Shoot",
+            "id": "1bbd5a89-53c4-4005-ac60-d6ef4e74286e",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "477913d9-bfb6-4b6a-875d-510a42864af7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0ad6d800-96b8-4dbe-a5cd-ec0db94b5a7d",
+                    "path": "<XRController>{LeftHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
